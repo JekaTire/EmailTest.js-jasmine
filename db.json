@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "user1",
+    "sourceField": "Phone",
+    "defaultValue": null,
+    "required": true
+  },
+  {
+    "Type": "user2",
+    "sourceField": "LastName",
+    "defaultValue":null,
+    "required": true
+  },
+  {
+    "Type": "user3",
+    "sourceField": "FirstName",
+    "defaultValue": null,
+    "required": false
+  },
+  {
+    "Type": "user4",
+    "sourceField": "Id",
+    "defaultValue": null,
+    "required": false
+  },
+  {
+    "Type": "user5",
+    "sourceField": "Id",
+    "defaultValue": null,
+    "required": false
+  },
+  {
+    "Type": "user6",
+    "sourceField": "Title",
+    "defaultValue": null,
+    "required": false
+  },
+  {
+    "Type": "user7",
+    "sourceField": "orgId",
+    "defaultValue": null,
+    "required": true
+  },
+  {
+    "Type": "user8",
+    "sourceField": "Email",
+    "defaultValue": null,
+    "required": true
+  },
+  {
+    "Type": "user9",
+    "sourceField": "Phone",
+    "defaultValue": null,
+    "required": false
+  }
+]
