@@ -1,8 +1,11 @@
 const _ = require('lodash');
-const db = require ('./db.json')
+const db = require ('./support/db.json')
+describe('check success url', () => {
 
-describe('search email in sourceField', () => {
-    it('check Email required true', () => {
-        expect(_.find(db, { "sourceField": "Email",  "required": true }));
+    it('check price and runtime', async () => {
+        expect(_.find(db, {"sourceField": "Email"})).not.toEqual(undefined);
+        expect(_.find(db, {"sourceField": "Email"})).not.toEqual(0);
+        expect(_.find(db, {"sourceField": "Email"})).not.toEqual(false);
+
     });
 });
